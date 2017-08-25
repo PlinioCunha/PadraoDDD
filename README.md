@@ -1,0 +1,2 @@
+# PadraoDDD
+Sample padrao DDD

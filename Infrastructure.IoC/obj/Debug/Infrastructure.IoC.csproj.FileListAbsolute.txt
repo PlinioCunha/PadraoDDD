@@ -1,0 +1,41 @@
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.IoC.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.IoC.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\SimpleInjector.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\SimpleInjector.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.csprojResolveAssemblyReference.cache
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.IoC.dll.config
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.IoC.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.IoC.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.Extras.CommonServiceLocator.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.dll.config
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.dll.config
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.Extras.CommonServiceLocator.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.pdb

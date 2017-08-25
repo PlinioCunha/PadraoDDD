@@ -1,0 +1,11 @@
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Domain\bin\Debug\Domain.dll.config
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Domain\bin\Debug\Domain.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Domain\bin\Debug\Domain.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Domain\obj\Debug\Domain.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Domain\obj\Debug\Domain.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Domain\obj\Debug\2.1 - Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.dll.config
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.pdb
+C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.pdb

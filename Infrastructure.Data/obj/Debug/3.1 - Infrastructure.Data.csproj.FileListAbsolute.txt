@@ -1,0 +1,37 @@
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.dll
+C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.dll.config
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations._1.resources
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csproj.GenerateResource.Cache
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb

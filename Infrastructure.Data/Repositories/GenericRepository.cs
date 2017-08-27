@@ -26,14 +26,14 @@ namespace Infrastructure.Data.Repositories
 
         public void Add(T entity)
         {
-            //_context.Entry(entity).State = EntityState.Added;
-            _context.Set<T>().Add(entity);
+            _context.Entry(entity).State = EntityState.Added;
+            //_context.Set<T>().Add(entity);
         }        
 
         public void Delete(T entity)
         {
-            //_context.Entry(entity).State = EntityState.Deleted;
-            _context.Set<T>().Remove(entity);
+            _context.Entry(entity).State = EntityState.Deleted;
+            //_context.Set<T>().Remove(entity);
         }
 
         public void Edit(T entity)

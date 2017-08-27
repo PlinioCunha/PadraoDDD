@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Repositories
 {
-    public class AdoRepository : IAdoRepository
+    public class AdoRepository : IAdoRepository, IDisposable
     {
 
         private static List<T> ToListaDataReader<T>(IDataReader dataReader)
@@ -49,8 +49,7 @@ namespace Infrastructure.Data.Repositories
                     command.CommandType = (procedure == true ? CommandType.StoredProcedure : CommandType.Text);
                     if (parameters != null)
                     {
-                        command.Parameters.Clear();
-                        //command.Parameters.AddRange(parameters);
+                        command.Parameters.Clear();                        
                         foreach (var param in parameters)
                         {
                             command.Parameters.Add(param);
@@ -131,8 +130,7 @@ namespace Infrastructure.Data.Repositories
                     command.CommandType = (procedure == true ? CommandType.StoredProcedure : CommandType.Text);
                     if (parameters != null)
                     {
-                        command.Parameters.Clear();
-                        //command.Parameters.AddRange(parameters);
+                        command.Parameters.Clear();                        
                         foreach (var param in parameters)
                         {
                             command.Parameters.Add(param);
@@ -170,6 +168,12 @@ namespace Infrastructure.Data.Repositories
         private string GetConnectingString(string conexao = "conexao")
         {
             return ConfigurationManager.ConnectionStrings[conexao].ToString();
+        }
+
+        public void Dispose()
+        {
+            //this.Dispose();
+            ////GC.SuppressFinalize(this);
         }
        
     }

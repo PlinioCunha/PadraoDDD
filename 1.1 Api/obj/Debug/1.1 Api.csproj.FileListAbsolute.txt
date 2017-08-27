@@ -48,7 +48,6 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.CodeDom.Providers.DotNetComp
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Web.Infrastructure.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Newtonsoft.Json.dll
-C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\NLog.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Purplelight.Framework.Autofac.Integration.WebApi.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Net.Http.Formatting.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Helpers.dll
@@ -61,6 +60,7 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.Deployment.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.Razor.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\WebGrease.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\log4net.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Dapper.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Domain.pdb
@@ -76,7 +76,6 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\EntityFramework.SqlServer.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.xml
-C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\NLog.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Newtonsoft.Json.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Net.Http.Formatting.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Helpers.xml
@@ -94,6 +93,7 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.DependencyCollector.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.WindowsServer.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.Web.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\log4net.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.pdb
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.dll.config
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Dapper.xml
@@ -110,3 +110,38 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\pt-br\System.Web.WebPages.Razor.resour
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\obj\Debug\1.1 Api.csprojResolveAssemblyReference.cache
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\obj\Debug\1.1 Api.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\obj\Debug\1.1 Api.pdb
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Data.Edm.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Data.OData.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Spatial.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Http.OData.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Data.Edm.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Data.OData.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Spatial.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Http.OData.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\de\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\es\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\it\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\de\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\es\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\fr\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\it\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ja\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ko\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\ru\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hans\System.Spatial.resources.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\zh-Hant\System.Spatial.resources.dll

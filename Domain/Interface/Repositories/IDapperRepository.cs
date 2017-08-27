@@ -11,5 +11,6 @@ namespace Domain.Interface.Repositories
         IList<T> GetAll<T>(string query, object[] parameter, bool procedure = false);
         T FirstOrDefault<T>(string query, object[] parameter, bool procedure = false);
         void Execute<T>(string query, T model, bool procedure = false);
+        string LoadFileSQL(string pathSql);
     }
 }

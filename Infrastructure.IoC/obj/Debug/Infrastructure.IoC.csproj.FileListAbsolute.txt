@@ -24,6 +24,8 @@ C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.Extras.Common
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Infrastructure.Data.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\log4net.dll
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Newtonsoft.Json.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Domain.pdb
@@ -34,6 +36,8 @@ C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Autofac.Extras.CommonServiceLocator.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\log4net.xml
+C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Newtonsoft.Json.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\EntityFramework.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\bin\Debug\Dapper.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.IoC\obj\Debug\Infrastructure.IoC.csprojResolveAssemblyReference.cache

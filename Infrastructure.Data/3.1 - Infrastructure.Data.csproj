@@ -46,6 +46,9 @@
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
@@ -63,9 +66,26 @@
     <Compile Include="Configuration\ManagerContext.cs" />
     <Compile Include="Configuration\UnitOfWork.cs" />
     <Compile Include="Context\ContextoBanco.cs" />
-    <Compile Include="Migrations\201708250203517_1.cs" />
-    <Compile Include="Migrations\201708250203517_1.Designer.cs">
-      <DependentUpon>201708250203517_1.cs</DependentUpon>
+    <Compile Include="Migrations\201708262220342_PadraDDD.cs" />
+    <Compile Include="Migrations\201708262220342_PadraDDD.Designer.cs">
+      <DependentUpon>201708262220342_PadraDDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708270325179_Table Tarefa.cs" />
+    <Compile Include="Migrations\201708270325179_Table Tarefa.Designer.cs">
+      <DependentUpon>201708270325179_Table Tarefa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708270329045_Tabela Tarefa\Historico Tarefa.cs" />
+    <Compile Include="Migrations\201708270330225_teste.cs" />
+    <Compile Include="Migrations\201708270330225_teste.Designer.cs">
+      <DependentUpon>201708270330225_teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708270331488_pix.cs" />
+    <Compile Include="Migrations\201708270331488_pix.Designer.cs">
+      <DependentUpon>201708270331488_pix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708270333108_pix1.cs" />
+    <Compile Include="Migrations\201708270333108_pix1.Designer.cs">
+      <DependentUpon>201708270333108_pix1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,7 +93,6 @@
     <Compile Include="Repositories\ApiRepository.cs" />
     <Compile Include="Repositories\DapperRepository.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
-    <Compile Include="Repositories\RepositoryUsuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Initializer\" />
@@ -91,8 +110,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201708250203517_1.resx">
-      <DependentUpon>201708250203517_1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201708262220342_PadraDDD.resx">
+      <DependentUpon>201708262220342_PadraDDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708270325179_Table Tarefa.resx">
+      <DependentUpon>201708270325179_Table Tarefa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708270330225_teste.resx">
+      <DependentUpon>201708270330225_teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708270331488_pix.resx">
+      <DependentUpon>201708270331488_pix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708270333108_pix1.resx">
+      <DependentUpon>201708270333108_pix1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 namespace Infrastructure.Data.Configuration
 {
 
+    // FluentAPI
+
     public class UsuarioMap : EntityTypeConfiguration<Usuario>
     {
         public UsuarioMap()
@@ -45,6 +47,7 @@ namespace Infrastructure.Data.Configuration
             // DATA CADASTRO
             this.Property(a => a.DataCadastro)
                 .HasColumnType("datetime2");
+                //.HasDefaultValue(DateTime.Now);
 
             // MAPAEAMENTO RELACIONAMENTO
             this.HasRequired(a => a.PerfilUsuario)

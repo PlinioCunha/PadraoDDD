@@ -7,5 +7,10 @@ C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\Pa
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.dll.config
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.pdb
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\log4net.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\log4net.xml
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Newtonsoft.Json.xml
 C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.pdb
+C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\2.1 - Domain.csprojResolveAssemblyReference.cache

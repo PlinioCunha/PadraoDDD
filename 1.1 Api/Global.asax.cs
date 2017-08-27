@@ -24,16 +24,15 @@ namespace _1._1_Api
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
+            //GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);            
+            //GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 
-
-
-
-
+            #region injeção
             //App_Start.AutofacConfig.Initialize();
             IContainer container;
             var builder = new ContainerBuilder();
 
-            builder = Infrastructure.IoC.Bindigs.Start();
+            builder = Infrastructure.IoC.Bindigs.Start();            
             builder.RegisterAssemblyTypes(typeof(WebApiApplication).Assembly).PropertiesAutowired();
 
             // CONTROLERS
@@ -45,6 +44,8 @@ namespace _1._1_Api
             ServiceLocator.SetLocatorProvider(() => new AutofacServiceLocator(container));
             GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);            
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
-        }
+            #endregion
+        }   
     }
 }
+

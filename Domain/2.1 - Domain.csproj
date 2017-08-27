@@ -30,8 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,23 +49,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\LogAcessoUsuario.cs" />
+    <Compile Include="Entities\LogSystem.cs" />
     <Compile Include="Entities\ModulosAcesso.cs" />
     <Compile Include="Entities\PerfilUsuario.cs" />
+    <Compile Include="Entities\Tarefa.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interface\Domain\IDomainServiceBase.cs" />
     <Compile Include="Interface\Domain\IDomainServiceUsuario.cs" />
+    <Compile Include="Interface\Domain\Email\IDomainServiceEmail.cs" />
+    <Compile Include="Interface\Domain\Log\IDomainServiceLogger.cs" />
+    <Compile Include="Interface\Domain\IDomainServiceTarefa.cs" />
     <Compile Include="Interface\Infrastructure\IManagerContext.cs" />
     <Compile Include="Interface\Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Interface\Repositories\IAdoRepository.cs" />
     <Compile Include="Interface\Repositories\IApiRepository.cs" />
     <Compile Include="Interface\Repositories\IDapperRepository.cs" />
     <Compile Include="Interface\Repositories\IGenericRepository.cs" />
-    <Compile Include="Interface\Repositories\IRepositoryUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DomainServiceBase.cs" />
     <Compile Include="Services\DomainServicesUsuario.cs" />
+    <Compile Include="Services\DomainServiceTarefa.cs" />
+    <Compile Include="Services\Email\DomainEmailServices.cs" />
+    <Compile Include="Services\Log\DomainServiceLogger.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

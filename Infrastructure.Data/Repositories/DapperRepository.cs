@@ -17,7 +17,7 @@ namespace Infrastructure.Data.Repositories
         {
             get
             {
-                return Convert.ToString(ConfigurationManager.AppSettings["conexao"]);
+                return Convert.ToString(ConfigurationManager.ConnectionStrings["conexao"]);
             }
         }
 
@@ -39,9 +39,9 @@ namespace Infrastructure.Data.Repositories
         }
 
         public IList<T> GetAll<T>(string query, object[] parameter, bool procedure = false)
-        {
+        {         
             using (var sqlConnection = new SqlConnection(GetConnectionString))
-            {
+            {         
                 var retorno = sqlConnection.Query<T>(query, parameter, commandType: (procedure ? System.Data.CommandType.StoredProcedure : System.Data.CommandType.Text));                
                 return retorno.ToList();
             }

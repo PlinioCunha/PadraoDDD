@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 namespace Infrastructure.Data.Configuration
 {
 
+    // FluentAPI
+
     public class UsuarioMap : EntityTypeConfiguration<Usuario>
     {
         public UsuarioMap()

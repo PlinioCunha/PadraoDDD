@@ -48,7 +48,6 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.CodeDom.Providers.DotNetComp
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Web.Infrastructure.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Newtonsoft.Json.dll
-C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\NLog.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Purplelight.Framework.Autofac.Integration.WebApi.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Net.Http.Formatting.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Helpers.dll
@@ -61,6 +60,7 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.Deployment.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.WebPages.Razor.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\WebGrease.dll
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\log4net.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Dapper.dll
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Domain.pdb
@@ -76,7 +76,6 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\EntityFramework.SqlServer.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.Practices.ServiceLocation.xml
-C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\NLog.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Newtonsoft.Json.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Net.Http.Formatting.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\System.Web.Helpers.xml
@@ -94,6 +93,7 @@ C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.DependencyCollector.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.WindowsServer.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Microsoft.AI.Web.xml
+C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\log4net.xml
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.pdb
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Infrastructure.Data.dll.config
 C:\Projetos\Estudos\PadraoDDD\1.1 Api\bin\Dapper.xml

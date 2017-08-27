@@ -4,11 +4,11 @@ using Domain.Interface.Repositories;
 using Domain.Services;
 using Infrastructure.Data.Configuration;
 using Infrastructure.Data.Repositories;
-using Microsoft.Practices.ServiceLocation;
 using Autofac;
-using Autofac.Core;
-using Autofac.Extras.CommonServiceLocator;
-using Autofac.Builder;
+using Domain.Services.Email;
+using Domain.Interface.Domain.Email;
+using Domain.Interface.Domain.Log;
+using Domain.Services.Log;
 
 namespace Infrastructure.IoC
 {
@@ -23,14 +23,16 @@ namespace Infrastructure.IoC
             build.RegisterType<UnitOfWork>().As<IUnitOfWork>();
             build.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>)).InstancePerLifetimeScope();
 
-            //
+            // 
             build.RegisterType<DapperRepository>().As<IDapperRepository>().InstancePerLifetimeScope();
             build.RegisterType<AdoRepository>().As<IAdoRepository>().InstancePerLifetimeScope();
             build.RegisterType<ApiRepository>().As<IApiRepository>().InstancePerLifetimeScope();
-            build.RegisterType<RepositoryUsuario>().As<IRepositoryUsuario>().InstancePerLifetimeScope();
-
-            // Domain
+            
+            // Domain Services
             build.RegisterType<DomainServicesUsuario>().As<IDomainServiceUsuario>().InstancePerLifetimeScope();
+            build.RegisterType<DomainEmailServices>().As<IDomainServiceEmail>().InstancePerLifetimeScope();
+            build.RegisterType<DomainServiceLogger>().As<IDomainServiceLogger>().InstancePerLifetimeScope();
+            build.RegisterType<DomainServiceTarefa>().As<IDomainServiceTarefa>().InstancePerLifetimeScope();
 
             // Aplicacao
             //todo
@@ -44,3 +46,4 @@ namespace Infrastructure.IoC
 
     
 }
+

@@ -20,20 +20,22 @@ namespace Infrastructure.Data.Configuration
             using (var dbTransaction = _context.Database.BeginTransaction())
             {
                 try
-                {                    
+                {
                     _context.SaveChanges();
                     dbTransaction.Commit();
                 }
                 catch (Exception ex)
                 {
                     dbTransaction.Rollback();
+                    throw new Exception(ex.ToString());
                 }
             }
         }
 
         public void Dispose()
         {
-            _context.Dispose();
+            if (this._context != null)
+                _context.Dispose();
         }
     }
 }

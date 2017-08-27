@@ -24,9 +24,12 @@ namespace _1._1_Api
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
+<<<<<<< HEAD
             //GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);            
             //GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 
+=======
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
             #region injeção
             //App_Start.AutofacConfig.Initialize();
             IContainer container;

@@ -18,7 +18,12 @@ namespace Domain.Services
         private readonly IGenericRepository<Usuario> _repository;
         private readonly IDomainServiceEmail _serviceEmail;
         private readonly IUnitOfWork _uow;
+<<<<<<< HEAD
         private readonly IDapperRepository _dapper;        
+=======
+        private readonly IDapperRepository _dapper;
+        private readonly ILog _logger;
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
 
         public DomainServicesUsuario(IUnitOfWork uow, IDapperRepository dapper, IGenericRepository<Usuario> repository, IDomainServiceEmail serviceEmail) 
             :base(repository, dapper, uow)
@@ -26,7 +31,13 @@ namespace Domain.Services
             this._uow = uow;
             this._dapper = dapper;
             this._repository = repository;
+<<<<<<< HEAD
             this._serviceEmail = serviceEmail;            
+=======
+            this._serviceEmail = serviceEmail;   
+            
+            this._logger = LogManager.GetLogger("LogInFile");            
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
         }
 
 
@@ -69,8 +80,12 @@ namespace Domain.Services
 
         public ICollection<Usuario> ListarUsuarios()
         {
+<<<<<<< HEAD
             //return dapperGetAll("select * from usuario order by idusuario desc", null);
             return entityGetAll().ToList();
+=======
+            return dapperGetAll("select * from usuario order by idusuario desc", null);
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
         }
    
         public Usuario LogarUsuario(string email, string senha)

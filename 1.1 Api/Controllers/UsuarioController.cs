@@ -1,7 +1,6 @@
 ﻿
 using Domain.Interface.Domain;
 using Domain.Interface.Domain.Log;
-using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Linq;
@@ -54,50 +53,7 @@ namespace _1._1_Api.Controllers
             }
         }
 
-
-        [HttpPost]
-        [Route("usuario/create")]
-        public HttpResponseMessage CreateUsuario(Domain.Entities.Usuario model)
-        {
-            try
-            {
-               //if (!ModelState.IsValid)
-               //     return Request.CreateResponse(HttpStatusCode.InternalServerError, "Favor preencher todos os campos obrigatórios");
-
-                model.DataCadastro = DateTime.Now;
-                
-                _domainServiceUsuario.CriarUsuario(model);
-                return Request.CreateResponse(HttpStatusCode.OK, "Usuário cadastro com sucesso.");
-            }
-            catch (Exception ex)
-            {
-                _logger.GravarLog(ex, true);
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-
-
-        [HttpGet]
-        [Route("usuario/get/{id:int}")]
-        public HttpResponseMessage GetId(int Id)
-        {
-            try
-           {
-                var retorno = Id > 0 ? _domainServiceUsuario.Detalhe(Id) : null;
-
-                if (retorno != null)
-                    return Request.CreateResponse(HttpStatusCode.OK, retorno);
-                else
-                    return Request.CreateResponse(HttpStatusCode.NotFound);
-            }
-            catch (Exception ex)
-            {
-                _logger.GravarLog(ex, true);
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-
-
+       
 
         [HttpGet]
         [Route("usuario/listar")]
@@ -105,8 +61,7 @@ namespace _1._1_Api.Controllers
         {
             try
             {
-                var retorno = _domainServiceUsuario.ListarUsuarios();                
-
+                var retorno = _domainServiceUsuario.ListarUsuarios();
                 _logger.Debug("Rows Count: " + retorno.Count);
                 return Request.CreateResponse(HttpStatusCode.OK, retorno);
 

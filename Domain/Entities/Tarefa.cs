@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using Newtonsoft.Json;
 using System;
+=======
+﻿using System;
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -34,6 +38,7 @@ namespace Domain.Entities
 
         [ForeignKey("UsuarioCreate")]
         public int IdUsuarioCreate { get; set; }
+<<<<<<< HEAD
 
         [JsonIgnore]
         public virtual Usuario UsuarioCreate { get; set; }
@@ -43,6 +48,12 @@ namespace Domain.Entities
         public int IdHistoricoTarefa { get; set; }
 
         [JsonIgnore]
+=======
+        public virtual Usuario UsuarioCreate { get; set; }
+
+        [ForeignKey("HistoricoTarefa")]
+        public int IdHistoricoTarefa { get; set; }
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
         public virtual ICollection<HistoricoTarefa> HistoricoTarefa { get; set; }
 
     }
@@ -58,14 +69,20 @@ namespace Domain.Entities
 
         [ForeignKey("Tarefa")]
         public int IdTarefa {get;set;}
+<<<<<<< HEAD
 
         [JsonIgnore]
+=======
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
         public virtual Tarefa Tarefa { get; set; }
 
         [ForeignKey("Usuario")]
         public int IdUsuario { get; set; }
+<<<<<<< HEAD
 
         [JsonIgnore]
+=======
+>>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
         public virtual Usuario Usuario { get; set; }
 
         [Required]

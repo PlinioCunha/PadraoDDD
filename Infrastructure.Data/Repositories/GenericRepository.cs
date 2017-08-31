@@ -13,7 +13,7 @@ using System.Data.Entity;
 
 namespace Infrastructure.Data.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : Domain.Interface.Repositories.GenericRepository<T> where T : class
     {
         protected readonly ContextoBanco _context;
 

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace Domain.Interface.Repositories
 {
-    public interface IGenericRepository<T> where T : class
+    public interface GenericRepository<T> where T : class
     {        
         IQueryable<T> GetAll();
         T First(int Id);

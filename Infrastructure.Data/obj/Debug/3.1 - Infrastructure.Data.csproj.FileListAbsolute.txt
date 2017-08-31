@@ -1,22 +1,3 @@
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.pdb
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Domain.pdb
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.xml
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csprojResolveAssemblyReference.cache
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\Documents\Visual Studio 2015\Projects\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb
-C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.dll
-C:\Users\plinio.cunha.OPENCORPORATE.000\documents\visual studio 2015\Projects\PadraoDDD\Infrastructure.Data\bin\Debug\Dapper.xml
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.PadraDDD.resources
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csproj.GenerateResource.Cache
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Infrastructure.Data.pdb
@@ -37,18 +18,11 @@ C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Microsoft.Practices.
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\Newtonsoft.Json.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\bin\Debug\log4net.xml
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.PadraDDD.resources
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.TableTarefa.resources
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.teste.resources
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.pix.resources
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.pix1.resources
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\3.1 - Infrastructure.Data.csproj.GenerateResource.Cache
-=======
->>>>>>> bda26d952f67ba685a8e18ac1b7add367b4885ca
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
 C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.TableTarefa.resources
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.teste.resources
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.pix.resources
-C:\Projetos\Estudos\PadraoDDD\Infrastructure.Data\obj\Debug\Infrastructure.Data.Migrations.pix1.resources

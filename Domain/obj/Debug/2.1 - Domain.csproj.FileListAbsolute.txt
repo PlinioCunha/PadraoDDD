@@ -9,8 +9,14 @@ C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Domain.pdb
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\log4net.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\System.Web.Cors.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\System.Web.Http.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\log4net.xml
 C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\System.Web.Http.xml
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Projetos\Estudos\PadraoDDD\Domain\bin\Debug\pt-br\System.Web.Http.resources.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.dll
 C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\Domain.pdb
-C:\Projetos\Estudos\PadraoDDD\Domain\obj\Debug\2.1 - Domain.csprojResolveAssemblyReference.cache

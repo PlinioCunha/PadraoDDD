@@ -13,10 +13,10 @@ namespace Domain.Services
     public class DomainServiceTarefa: DomainServiceBase<Tarefa>, IDomainServiceTarefa
     {                
         private readonly IUnitOfWork _uow;
-        private readonly IGenericRepository<Tarefa> _repository;        
+        private readonly GenericRepository<Tarefa> _repository;        
         private readonly IDapperRepository _dapper;
   
-        public DomainServiceTarefa(IGenericRepository<Tarefa> repository, IDapperRepository dapper, IUnitOfWork uow) : base(repository, dapper, uow)
+        public DomainServiceTarefa(GenericRepository<Tarefa> repository, IDapperRepository dapper, IUnitOfWork uow) : base(repository, dapper, uow)
         {            
             this._repository = repository;
             this._dapper = dapper;

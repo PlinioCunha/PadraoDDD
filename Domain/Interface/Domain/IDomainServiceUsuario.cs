@@ -17,5 +17,7 @@ namespace Domain.Interface.Domain
         void RecuperarSenha(string email);
         void AlterarSenha(string email, string senhaAntigo, string senhaNova);
         ICollection<Usuario> ListarUsuarios();
+
+        IDomainServiceUsuario GetInstance();
     }
 }

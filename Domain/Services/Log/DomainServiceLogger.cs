@@ -16,10 +16,10 @@ namespace Domain.Services.Log
     {
         private readonly ILog _logger;
         private readonly IDomainServiceEmail _emailService;
-        private readonly IGenericRepository<LogSystem> _repositoryLog;
+        private readonly GenericRepository<LogSystem> _repositoryLog;
         private readonly IDapperRepository _dapper;
 
-        public DomainServiceLogger(IDomainServiceEmail emailService, IGenericRepository<LogSystem> repositoryLog, IDapperRepository dapper)
+        public DomainServiceLogger(IDomainServiceEmail emailService, GenericRepository<LogSystem> repositoryLog, IDapperRepository dapper)
         {
             this._emailService = emailService;
             this._repositoryLog = repositoryLog;

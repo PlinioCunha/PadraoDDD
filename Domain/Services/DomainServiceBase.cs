@@ -11,12 +11,12 @@ namespace Domain.Services
 {
     public class DomainServiceBase<T> : IDomainServiceBase<T> where T : class
     {
-        protected readonly ILog _logger;        
+        protected ILog _logger;        
         private readonly IUnitOfWork _uow;
-        private readonly IGenericRepository<T> _repository;        
+        private readonly GenericRepository<T> _repository;        
         private readonly IDapperRepository _dapper;
 
-        public DomainServiceBase(IGenericRepository<T> repository, IDapperRepository dapper, IUnitOfWork uow)
+        public DomainServiceBase(GenericRepository<T> repository, IDapperRepository dapper, IUnitOfWork uow)
         {
             this._repository = repository;
             this._dapper = dapper;

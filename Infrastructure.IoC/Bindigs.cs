@@ -21,7 +21,7 @@ namespace Infrastructure.IoC
             // Infrastructure                   
             build.RegisterType<ManagerContext>().As<IManagerContext>();
             build.RegisterType<UnitOfWork>().As<IUnitOfWork>();
-            build.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>)).InstancePerLifetimeScope();
+            build.RegisterGeneric(typeof(Data.Repositories.GenericRepository<>)).As(typeof(Domain.Interface.Repositories.GenericRepository<>)).InstancePerLifetimeScope();
 
             // 
             build.RegisterType<DapperRepository>().As<IDapperRepository>().InstancePerLifetimeScope();
@@ -29,7 +29,7 @@ namespace Infrastructure.IoC
             build.RegisterType<ApiRepository>().As<IApiRepository>().InstancePerLifetimeScope();
             
             // Domain Services
-            build.RegisterType<DomainServicesUsuario>().As<IDomainServiceUsuario>().InstancePerLifetimeScope();
+            build.RegisterType<DomainServiceUsuario>().As<IDomainServiceUsuario>().InstancePerLifetimeScope();
             build.RegisterType<DomainEmailServices>().As<IDomainServiceEmail>().InstancePerLifetimeScope();
             build.RegisterType<DomainServiceLogger>().As<IDomainServiceLogger>().InstancePerLifetimeScope();
             build.RegisterType<DomainServiceTarefa>().As<IDomainServiceTarefa>().InstancePerLifetimeScope();
